@@ -1,0 +1,158 @@
+-- Window Creation --
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Viral v1.0.1", "Synapse")
+--
+print("Premium Undetected! Loading Free Client....")
+print("👑 Viral v1.2 Free 👑")
+print("Buy Viral Premium from vauz#7376")
+print("Loading ... { 734ms Load Time! }")
+print("Loaded! Happy exploiting!")
+--
+
+-- Home Creation --
+local Tabz = Window:NewTab("Home")
+-- Home Insides --
+local Section = Tabz:NewSection("Welcome!")
+
+Section:NewLabel("Viral v1.0.1 made by | vauz#7376 |")
+Section:NewLabel("Some scripts do have keys / may be outdated!")
+Section:NewLabel("Not all scripts / GUIs were made by me, just the hub.")
+Section:NewLabel("DM vauz#7376 to buy Premium")
+Section:NewLabel("Premium adds 10+ games and more scripts")
+Section:NewLabel("Premium is unscripted, so please wait!")
+Section:NewButton("Buy Premium", "Paste me into your browser to buy!", function()
+    
+    print("getgenv(_PremiumBuy)")
+    setclipboard("Premium Currently Unscripted!")
+end)
+
+-- Tab 1 Creation --
+local Tab1 = Window:NewTab("Universal")
+-- Tab 1 Insides --
+local Section = Tab1:NewSection("Universal Items")
+
+Section:NewButton("Infinite Yield", "Admin Commands!", function()
+    print("getgenv(_InfYiff)")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+--
+Section:NewButton("Universal Animations", "Made by vauz! Have fun!", function()
+    print("getgenv(_animation1)")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Flyzure/Universals/main/VauzAnimations"))()
+end)
+--
+Section:NewButton("Chill Animation", "Made by ?! Have fun!", function()
+    print("getgenv(_animation2)")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Flyzure/Universals/main/ChillAnimation"))()
+end)
+--
+Section:NewButton("Autoclicker?", "Could use for clicker games ig?", function()
+    print("getgenv(_autoclicker.v3)")
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/ROBLOX_AutoClicker"))()
+end)
+--
+Section:NewButton("Highlight 1.0.1", "This was made by vauz#7376", function()
+    print("getgenv(_vauz#7376:HIGHLIGHT.1.0.1:Universal.Client)")
+    --
+    getgenv().enabled = true --Toggle on/off
+    getgenv().filluseteamcolor = false --Toggle fill color using player team color on/off
+    getgenv().outlineuseteamcolor = false --Toggle outline color using player team color on/off
+    getgenv().fillcolor = Color3.new(102, 40, 199) --Change fill color, no need to edit if using team color
+    getgenv().outlinecolor = Color3.new(1, 1, 1) --Change outline color, no need to edit if using team color
+    getgenv().filltrans = .75 --Change fill transparency
+    getgenv().outlinetrans = 0 --Change outline transparency
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Flyzure/ESP/main/esp-main"))()
+end)
+
+-- PhantomForces Creation --
+local Tab2 = Window:NewTab("Phantom Forces")
+-- PF Insides --
+local Section = Tab2:NewSection("Phantom Forces Scripts")
+--
+Section:NewButton("Vestra V5", "Loads a leaked version of VestraV5", function()
+    print("getgenv(_vsta)")
+    --
+    getgenv().key = "Vstra.V5_3e41bb397f4f79ef"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
+end)
+--
+Section:NewButton("Darkhub", "Loads the Darkhub cheat Client", function()
+    print("getgenv(_DarkhubBootstrapper)")
+    --
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+--
+Section:NewButton("VauzESP", "Loads a special ESP made by vauz#7376", function()
+    print("getgenv(_PF.Highlight)")
+    --
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Flyzure/HighligtESP/main/PhantomESP", true))()
+end)
+
+
+-- PrisonLife Creation --
+local Tab3 = Window:NewTab("Prison Life")
+-- PL Insides --
+local Section = Tab3:NewSection("Prison life Scripts")
+
+Section:NewButton("Prevail.X", "Loads PrevailX Client", function()
+    print("getgenv(_Prevail.xBootstrapper)")
+    --
+    loadstring(game:HttpGet("https://pastebin.com/raw/x24KgNwj", true))()
+end)
+--
+Section:NewButton("Vynixu Prison Life", "Loads Vynixu's Prison life Script.", function()
+    print("getgenv(_VynixuPrisonClient)")
+    --
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Prison%20Life/Script.lua"))()
+end)
+--
+
+
+-- Arsenal Creation --
+local Tab4 = Window:NewTab("Arsenal")
+-- A Insides --
+local Section = Tab4:NewSection("Arsenal Scripts")
+
+Section:NewButton("Darkhub", "Loads the Darkhub cheat Client", function()
+    print("getgenv(_DarkhubBootstrapper)")
+    --
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+--
+Section:NewButton("Owlhub", "Loads the Owlhub cheat Client", function()
+    print("getgenv(_owlhub1)")
+    --
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+--
+Section:NewButton("Vestra V5", "Loads a leaked version of VestraV5", function()
+    print("getgenv(_vsta)")
+    --
+    getgenv().key = "Vstra.V5_3e41bb397f4f79ef"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
+end)
+--
+Section:NewButton("Bolts Hub v?", "Loads Bolt Hub (Unkown Version info!)", function()
+    print("getgenv(_Bolts.V?)")
+    --
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5"))()
+end)
+
+
+-- Bad Business Creation --
+local Tab5 = Window:NewTab("Bad Business")
+-- BB Insides --
+local Section = Tab5:NewSection("Bad Business Scripts")
+
+Section:NewButton("Parvus v3.12", "Loads v3.12 of Parvus for Bad Business", function()
+    print("getgenv(_parvus)")
+    --
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/AlexR32/Parvus/main/Loader.lua"))("Parvus hitting p!")
+end)
+--
+Section:NewButton("Darkhub", "Loads the Darkhub cheat Client", function()
+    print("getgenv(_DarkhubBootstrapper)")
+    --
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+--
