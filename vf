@@ -156,3 +156,14 @@ Section:NewButton("Darkhub", "Loads the Darkhub cheat Client", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 end)
 --
+
+-- ZU C --
+local TabX = Window:NewTab("Zombie Uprising")
+-- ZU I --
+local Section = Tab5:NewSection("Zombie Uprising Scripts")
+
+Section:NewButton("6FootPanda's Hub", "Loads cool Zombie Uprising Script 😎", function()
+    print("getgenv(_6foothub)")
+    --
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
