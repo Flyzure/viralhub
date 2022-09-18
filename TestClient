@@ -1,6 +1,6 @@
 -- Window Creation --
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Bug Testing", "Synapse")
+local Window = Library.CreateLib("Bug Testing", "Sentinel")
 --
 print("Testing! Loading Test Client....")
 print("🔨 Viral Test 🔨")
@@ -13,17 +13,11 @@ local Tabz = Window:NewTab("Home")
 -- Home Insides --
 local Section = Tabz:NewSection("Welcome!")
 
-Section:NewLabel("Viral v1.0.1 made by | vauz#7376 |")
+Section:NewLabel("Test Client made by | vauz#7376 |")
 Section:NewLabel("Some scripts do have keys / may be outdated!")
 Section:NewLabel("Not all scripts / GUIs were made by me, just the hub.")
-Section:NewLabel("DM vauz#7376 to buy Premium")
-Section:NewLabel("Premium adds 10+ games and more scripts")
-Section:NewLabel("Premium is unscripted, so please wait!")
-Section:NewButton("Buy Premium", "Paste me into your browser to buy!", function()
-    
-    print("getgenv(_PremiumBuy)")
-    setclipboard("Premium Currently Unscripted!")
-end)
+Section:NewLabel("This certain script is for testing, use it only for bugs.")
+Section:NewLabel("Testing Client v1.2.1")
 
 -- Tab 1 Creation --
 local Tab1 = Window:NewTab("Universal")
