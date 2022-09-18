@@ -161,7 +161,7 @@ end)
 -- Zombie Uprising Creation --
 local Tab6 = Window:NewTab("Zombie Uprising")
 -- ZU Insides --
-local Section = Tab5:NewSection("Zombie Uprising Scripts")
+local Section = Tab6:NewSection("Zombie Uprising Scripts")
 
 Section:NewButton("6Foot4Honda's Hub", "Loads the Darkhub cheat Client", function()
     print("getgenv(_6foot)")
