@@ -1,9 +1,9 @@
 -- Window Creation --
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Bug Testing", "Sentinel")
+local Window = Library.CreateLib("Viral Test Client v1.2.1", "LightTheme")
 --
 print("Testing! Loading Test Client....")
-print("🔨 Viral Test 🔨")
+print("🔨 Viral Testing 🔨")
 print("Loading ... { 3.01ms Load Time! }")
 print("Loaded! Report bugs to vauz#7376!")
 --
@@ -11,7 +11,7 @@ print("Loaded! Report bugs to vauz#7376!")
 -- Home Creation --
 local Tabz = Window:NewTab("Home")
 -- Home Insides --
-local Section = Tabz:NewSection("Welcome!")
+local Section = Tabz:NewSection("Welcome Developer!")
 
 Section:NewLabel("Test Client made by | vauz#7376 |")
 Section:NewLabel("Some scripts do have keys / may be outdated!")
