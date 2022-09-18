@@ -172,7 +172,7 @@ end)
 -- ZU C --
 local TabZ = Window:NewTab("Brookhaven")
 -- ZU I --
-local Section = TabX:NewSection("Gay ass Scripts")
+local Section = TabZ:NewSection("Gay ass Scripts")
 
 Section:NewButton("IceMael7", "gay ass nigga script", function()
     print("getgenv(_icme)")
