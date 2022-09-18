@@ -170,5 +170,4 @@ Section:NewButton("6Foot4Honda's Hub", "Loads the Darkhub cheat Client", functio
 end)
 --
 Section:NewLabel("So uhh.. Scripts for this game are hard to get")
-Section:NewLabel("Nothing else here!!!")
 --
