@@ -173,20 +173,15 @@ Section:NewLabel("So uhh.. Scripts for this game are hard to get")
 --
 
 
--- Hood Modded Creation --
-local Tab7 = Window:NewTab("DaHood Modded")
--- HM Insides --
-local Section = Tab7:NewSection("Hood Modded Scripts")
+-- Brookhaven Creation --
+local Tab7 = Window:NewTab("Brookhaven Modded")
+-- bh Insides --
+local Section = Tab7:NewSection("Brookhaven Scripts")
 
-Section:NewButton("chariotsware", "Loads the chairiotsware cheat Client", function()
-    print("getgenv(_chariotsware)")
+Section:NewButton("icemae", "Loads some cheat for brookhaven?", function()
+    print("getgenv(_ice)")
     --
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 end)
 --
-Section:NewButton("Vortex 1.0.9", "Loads the vortex cheat Client", function()
-    print("getgenv(_vortex)")
-    --
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex"))()
-end)
---
+
