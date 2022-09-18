@@ -171,17 +171,3 @@ end)
 --
 Section:NewLabel("So uhh.. Scripts for this game are hard to get")
 --
-
-
--- Brookhaven Creation --
-local Tab7 = Window:NewTab("Brookhaven Modded")
--- bh Insides --
-local Section = Tab7:NewSection("Brookhaven Scripts")
-
-Section:NewButton("icemae", "Loads some cheat for brookhaven?", function()
-    print("getgenv(_ice)")
-    --
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
-end)
---
-
