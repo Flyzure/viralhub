@@ -1,12 +1,11 @@
 -- Window Creation --
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Viral v1.0.1  ~  Testing / Content Creator bundle", "Synapse")
+local Window = Library.CreateLib("Bug Testing", "Synapse")
 --
-print("Premium Undetected! Loading Free Client....")
-print("👑 Viral v1.2 Free 👑")
-print("Buy Viral Premium from vauz#7376")
-print("Loading ... { 734ms Load Time! }")
-print("Loaded! Happy exploiting!")
+print("Testing! Loading Test Client....")
+print("🔨 Viral Test 🔨")
+print("Loading ... { 3.01ms Load Time! }")
+print("Loaded! Report bugs to vauz#7376!")
 --
 
 -- Home Creation --
